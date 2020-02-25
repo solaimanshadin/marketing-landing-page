@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', ;
+    height: 100%;
+}
+
+h1,
+h2,
+p {
+    color: #42495B;
+}
+
+.btn {
+    border-radius: 34px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.my-btn {
+    background-color: #7E76F9;
+    border-color: #7E76F9;
+    color: #ffffff;
+}
+
+.my-btn:hover {
+    background: rgb(95, 83, 255);
+    color: #ffffff;
+}
+
+.package-btn {
+    border-color: #7E76F9;
+    color: #7E76F9;
+    background: transparent;
+}
+
+.package-btn:hover {
+    background-color: #7E76F9;
+    color: #fff;
+}
+
+.text-highlight {
+    color: #7E76F9;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    padding-left: 1.5em !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.banner {
+    background-image: url(images/banner-bg.png);
+    background-position: right top;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.banner .row {
+    height: 100vh;
+    position: relative;
+}
+
+.mouse-button {
+    left: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    box-shadow: 1px 2px 30px #f0eded;
+    position: absolute;
+    bottom: 30px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.mouse-button:hover {
+    box-shadow: 1px 2px 50px #b8b7b7;
+}
+
+.biography {
+    background-image: url(images/bio-bg.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+
+.services {
+    background-image: url(images/service-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.services .card {
+    margin-bottom: 75px;
+    border: 0;
+    border-radius: 36px;
+    box-shadow: 0 10px 20px rgba(126, 118, 249, 0.10);
+}
+
+.services .card .card-title {
+    font-size: 18px;
+}
+
+.services .card img {
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.pricing {
+    background-color: rgba(126, 118, 249, 0.15);
+}
+
+.card:hover {
+    box-shadow: 0 20px 30px rgba(126, 118, 249, 0.10);
+    transform: translateY(-5px);
+    transition: .3s all ease;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 20px;
+}
+
+.pricing .card-title {
+    font-weight: 400;
+    color: #42495B;
+}
+
+.pricing .card p,
+.pricing .card h5 {
+    padding: 20px 0;
+}
+
+.newsletter .form-control {
+    background-color: #F6F7FB;
+    border: none;
+}
+
+footer {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 300px;
+    color: #ffffff;
+}
+
+footer li {
+    line-height: 1.8;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer i {
+    margin-right: 10px;
+}
